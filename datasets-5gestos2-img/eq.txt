@@ -1,0 +1,7 @@
+    y=(ax-ay+az+12)/8
+    x=(gx+gy+gz+6000)/4000
+    for k in range(0,N):
+      imagey[:,k]=y
+    for k in range(0,N):
+      imagex[k,:]=x
+    image=imagex+imagey
